@@ -13,10 +13,10 @@
       </textarea>
     </div>
     <div>
-      <button @click="back">戻る</button>
-      <button @click="save">保存</button>
-      <button @click="clear">クリア</button>
-      <button @click="remove" v-if="memo.id">削除</button>
+      <button @click='back'>戻る</button>
+      <button @click='save'>保存</button>
+      <button @click='clear'>クリア</button>
+      <button @click='remove' v-if='memo.id'>削除</button>
     </div>
   </div>
 </template>

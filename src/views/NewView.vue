@@ -1,5 +1,5 @@
 <template>
-  <MemoForm memo="" />
+  <MemoForm memo='' />
 </template>
 
 <script>
