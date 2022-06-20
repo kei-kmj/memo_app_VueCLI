@@ -9,7 +9,8 @@
     <div class='textarea'>
       <textarea
           v-model='content'
-          placeholder='内容'></textarea>
+          placeholder='内容'>
+      </textarea>
     </div>
     <div>
       <button @click="back">戻る</button>
