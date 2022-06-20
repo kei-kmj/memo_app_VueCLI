@@ -45,8 +45,12 @@ export default {
       if (this.memo.id) {
         memo.id = this.memo.id
       }
-      this.$store.commit('save', memo)
-      this.$router.push('/')
+      if (this.title === null || this.title === undefined) {
+        alert('タイトルが空白のメモは保存できません')
+      } else {
+        this.$store.commit('save', memo)
+        this.$router.push('/')
+      }
     },
     clear () {
       this.title = null
