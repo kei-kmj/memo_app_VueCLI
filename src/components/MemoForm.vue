@@ -1,7 +1,16 @@
 <template>
   <div class='center'>
-    <div class='input'><input type='text' v-model='title' placeholder='タイトル'></div>
-    <div class='textarea'><textarea v-model='content' placeholder='内容'></textarea></div>
+    <div class='input'>
+      <input
+          type='text'
+          v-model='title'
+          placeholder='タイトル'>
+    </div>
+    <div class='textarea'>
+      <textarea
+          v-model='content'
+          placeholder='内容'></textarea>
+    </div>
     <div>
       <button @click="back">戻る</button>
       <button @click="save">保存</button>
