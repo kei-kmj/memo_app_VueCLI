@@ -25,9 +25,9 @@ export default createStore({
     RESTORE_MUTATION: vuexPersist.RESTORE_MUTATION,
     save (state, newMemo) {
       if (newMemo.id) {
-        let edit = state.memos.find(memo => memo.id === newMemo.id)
-        edit.title = newMemo.title
-        edit.content = newMemo.content
+        let correct = state.memos.find(memo => memo.id === newMemo.id)
+        correct.title = newMemo.title
+        correct.content = newMemo.content
       } else {
         newMemo.id = Date.now()
         state.memos.unshift(newMemo)
