@@ -45,7 +45,7 @@ export default {
       if (this.memo.id) {
         memo.id = this.memo.id
       }
-      if (this.title === null || this.title === undefined) {
+      if (this.title === null || this.title === undefined || this.title.trim() ==='') {
         alert('タイトルが空白のメモは保存できません')
       } else {
         this.$store.commit('save', memo)
