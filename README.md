@@ -1,24 +1,10 @@
-# memo_app_vuecli
+# Vue memo app
+This is a simple memo app :)
 
-## Project setup
-```
-npm install
-```
+# Setup
+Clone this repository and move to the directory.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+$ git clone https://github.com/kei-kmj/memo_app_VueCLI.git
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run this command.
+$ npm run serve
